@@ -1,6 +1,6 @@
 ---
 title: "Activity 4"
-author: "Name"
+author: "Connor McNamee"
 output: github_document
 ---
 
@@ -10,7 +10,7 @@ Most of the functions that we will use this semester are from the `{tidyverse}` 
 While we will focus on `{dplyr}`, it will be nice to be able to produce graphical displays.
 Therefore, instead of loading both `{dplyr}` and `{ggplot2}`, in the code chunk below we load all of the `{tidyverse}`.
 
-```{r load_packages, message = FALSE}
+```{r load_packages, message=FALSE}
 library(tidyverse)
 ```
 
@@ -121,8 +121,8 @@ Below is a blank R code chunk.
 Name this code chunk `college_grads_top`; you do not need to suppress messages.
 In this code chunk, type `college_recent_grads` to view the top few (first 10) entries of the dataset.
 
-```{r}
-
+```{r college_grads_top}
+college_recent_grads
 ```
 
 
